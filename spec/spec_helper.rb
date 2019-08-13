@@ -3,7 +3,7 @@ require 'yaml'
 RSpec.configure do |config|
 
   def base_hash
-    monopoly = {}
+    monopoly = {:edition => {}}
   end
 
 end
