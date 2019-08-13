@@ -1,9 +1,10 @@
 require 'yaml'
 
 RSpec.configure do |config|
-
-  def base_hash
-    monopoly = {:railroads => {}}
+monopoly = {}
+  
+  def base_hash(hash)
+    hash[:railroads] = {}
   end
   
   
