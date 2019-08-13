@@ -7,6 +7,8 @@ monopoly = {}
     hash[:railroads] = {}
   end
   
+base_hash(monopoly)
+  
   
 
 end
